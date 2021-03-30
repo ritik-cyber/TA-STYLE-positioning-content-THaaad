@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+.one {
+  width: 100%;
+  background-color: blueviolet;
+}
+.header {
+  float: left;
+}
+.anker {
+  text-align: right;
+}
+.nav {
+  text-decoration: none;
+  margin: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  clear: both;
+  color: aqua;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+.article1 {
+  float: left;
+  margin: 20px;
+  vertical-align: middle;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+}
+.clearfix::after {
+  clear: both;
+}
+.footer {
+  clear: both;
+  text-align: center;
+  background-color: lavender;
+  padding: 20px;
+}
+.nav1 {
+  margin: 10px;
+  color: darkolivegreen;
+  text-decoration: none;
+}
